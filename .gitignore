@@ -1,0 +1,53 @@
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# --------------------
+# Virtual Environments
+# --------------------
+venv/
+.env/
+.env.*
+
+# --------------------
+# Streamlit
+# --------------------
+.streamlit/
+
+# --------------------
+# Testing / Coverage
+# --------------------
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --------------------
+# OS / Editor Files
+# --------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# --------------------
+# Logs
+# --------------------
+*.log
+
+# --------------------
+# Build / Distribution
+# --------------------
+build/
+dist/
+*.egg-info/
+
+# --------------------
+# Secrets (IMPORTANT)
+# --------------------
+*.key
+*.pem
+*.secret
